@@ -7,7 +7,7 @@ pose = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 mp_drawing = mp.solutions.drawing_utils
 
 # Load the image from the file manager (update the path with your own image path)
-image_path = 'C:\\sweathaswin\\m1.jpg'  # Update with your image path
+image_path = 'C:\\vinothkumar\\m1.jpg'  # Update with your image path
 image = cv2.imread(image_path)
 
 # Convert the image to RGB (MediaPipe expects RGB format)
